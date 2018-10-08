@@ -1,10 +1,10 @@
 import React from 'react';
-import Layout from './HOC/Layout';
+import Layout from './HOC/Layout.js';
 
 const Routes = (props) => {
   return (
     <Layout>
-      
+
     </Layout>
   )
 }
