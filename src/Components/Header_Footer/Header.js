@@ -3,7 +3,7 @@ import AppBar from '@material-ui/core/AppBar'
 import ToolBar from '@material-ui/core/Toolbar';
 import Button from '@material-ui/core/Button';
 import {Link} from 'react-router-dom';
-import CityLogo from '../../Components/UI/icons';
+import {CityLogo} from '../UI/icons';
 
 
 
@@ -29,7 +29,13 @@ class Header extends Component {
             <div
             style={{flexGrow:1}}>
             <div className="header_logo">
-                    <CityLogo></CityLogo>
+                    <CityLogo
+                    link={true}
+                    linkTo={"/"}
+                    width="70x"
+                    height="70px"
+                    
+                    ></CityLogo>
             </div>
 
             </div>

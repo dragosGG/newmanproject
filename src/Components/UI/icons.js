@@ -1,11 +1,22 @@
-import react from 'react';
+import React from 'react';
 import {Link} from 'react-router-dom';
-import mcitylogo from '../../Resources/images/logos/machester_city_logo';
+import mcitylogo from '../../Resources/images/logos/manchester_city_logo.png';
 
 
-export const CityLogo = (props)  => {
 
-    const template = <div> logo</div>
+export  const CityLogo = (props)  => {
+
+    const template = <div
+    className="img_cover"
+    style={{
+        width:props.width,
+        height:props.height,
+        baclground:`url(${mcitylogo}) no-repeat`
+    }}
+    
+    >
+        
+         </div>
 
 
     if(props.link) {
