@@ -1,10 +1,17 @@
 import React from 'react';
 import Layout from './HOC/Layout.js';
+import {Switch, Route} from 'react-router-dom';
+
+
+import Home from './Components/Home'
 
 const Routes = (props) => {
   return (
     <Layout>
+      <Switch>
+          <Route exact component={Home} path="/"/>
 
+      </Switch>
     </Layout>
   )
 }
