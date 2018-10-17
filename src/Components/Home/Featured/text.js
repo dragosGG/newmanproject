@@ -27,7 +27,7 @@ class Text extends Component {
                             transform: `translate(260px,170px) rotateY(${rotate}deg)`
                         }}
                    >
-                    3
+                    
                    </div>
                ) 
             }}
@@ -58,7 +58,7 @@ class Text extends Component {
                             transform: `translate(${x}px,${y}px)`
                         }}
                 >
-                    League
+                    WakeUp
                 </div>
             ) 
             }}
@@ -88,7 +88,7 @@ class Text extends Component {
                         transform: `translate(${x}px,${y}px)`
                     }}
             >
-                Championships
+                International
             </div>
         ) 
         }}
